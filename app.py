@@ -31,6 +31,8 @@ print(test_seq)
 
 
 # add padding to sequences for sentence length
+# can set padding to post with padding='post'
+# can also set a max length of sentence with maxlen=5
 padded = pad_sequences(sequences)
 
 
